@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 255, 0.103);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .router-view {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  input, button {
+    border-radius: var(--border-radius);
+  }
+  
+  button {
+    cursor: pointer;
+  }
+
+
+  @media (max-width: 768px) {
+    #app {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      height: auto;
+      box-shadow: none;
+      padding: 10px;
+    }
+  
+    .router-view {
+      padding: 10px;
+    }
+  
+    .countries-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .country-card {
+      width: 90%;
+    }
+  
+    .search-bar input {
+      width: 60%;
+    }
+  }

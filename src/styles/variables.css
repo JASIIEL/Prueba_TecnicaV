@@ -1,0 +1,17 @@
+
+:root {
+    --primary-color: #007BFF;
+    --secondary-color: #6C757D;
+    --background-color: #F0F2F5; 
+    --text-color: #333333;       
+    --sidebar-bg-color: #3C3F41; 
+    --sidebar-text-color: #FFFFFF; 
+    --button-bg-color: #007BFF; 
+    --button-text-color: #FFFFFF; 
+    --card-bg-color: #FFFFFF; 
+    --card-border-color: #DDDDDD; 
+    --card-hover-bg-color: #F8F9FA; 
+    --border-radius: 10px; 
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
